@@ -1,0 +1,50 @@
+.asideMenu{
+    display: flex;
+    float: left;
+    background-color: gray;
+    width: 250px;
+}
+
+.table table-striped{
+    display: flex;
+    width: 100%;
+}
+
+.flex-container{
+  display: flex;
+}
+.flex-item{
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.flex-itemTable{
+    width: 60%;
+    flex-grow: 1;
+
+}
+
+.note-section{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.noteAside{
+    padding: 10px;
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+
+.note-textarea{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+    overflow-y: auto;
+
+}

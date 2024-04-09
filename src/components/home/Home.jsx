@@ -59,14 +59,11 @@ export default function Home(){
                         <h3>"CodeLift"에서 여러분의 성공적인 프로젝트를 기대하세요!</h3>
                     </div>
                 </div>
-
-                <div>
-                    <div>
-                        <button>프로젝트 가이드 보기</button>
-                    </div>
-                    <div>
-                        <button>프로젝트 시작하기</button>
-                    </div>
+                <div >
+                    <ul className="mb-2 mb-lg-0 justify-content-center">
+                        <li><button className="btn btn-success">프로젝트 가이드 보기</button></li>
+                        <li> <button className="btn btn-success">프로젝트 시작하기</button></li>
+                    </ul>
                 </div>
             </div>
         </div>
